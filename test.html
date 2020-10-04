@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>des1</title>
+    <link href="css/my.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div id="bar"></div>
+    <img src="img/logo.png" style="z-index:4;position: fixed;top:0px;left: 0px; border-radius: 50px;" width="100" height="100"/>
+    <ul class="nav nav-pills" style="font-size:17px;background-color: white;">
+        <li style="line-height: 50px;margin-left: 100px;">The Negotiator</li>
+    <li style="margin-left: 200px;" role="presentation">
+        <a  href="#">Home</a>
+    </li>
+    <li role="presentation" class="dropdown" >
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            About <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Team Members</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Attributes</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Collaborations&Partnership</a></li>
+        </ul>
+    </li>
+    <li role="presentation" class="dropdown" >
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Project<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Description</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Design</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Safely</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Contribution</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Prospect</a></li>
+        </ul>
+    </li>
+    <li role="presentation" class="dropdown" >
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Web Lab<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Parts</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Proof-of-Concept</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Measurement</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Engineering</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Results</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Notebook</a></li>
+        </ul>
+    </li>
+    <li role="presentation" >
+        <a  href="#">
+           Model
+        </a>
+    </li>
+    <li role="presentation" >
+        <a  href="#">
+           Hardware
+        </a>
+
+    </li>
+    <li role="presentation" class="dropdown" >
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Human Practice<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Integrated Human Practice</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Education</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Inclusivity</a></li>
+        </ul>
+    </li>
+    <li role="presentation" class="dropdown" >
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Enterpreneurship<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Implementation</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Enterpreneurship</a></li>
+        </ul>
+    </li>
+    <li role="presentation" class="dropdown" >
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Awards<span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Awards</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Criteria</a></li>
+        </ul>
+    </li>
+</ul>
+
+    <div class="panel-group table-responsive classify" role="tablist" style="position:fixed;top:100px;">
+        <div class="panel panel-primary leftMenu" style="border:none; ">
+            <!-- 利用data-target指定要折叠的分组列表 -->
+            <div class="panel-heading" id="collapseListGroupHeading1" data-toggle="collapse"
+                 data-target="#collapseListGroup1" role="tab" style="background-color: white;color:lightskyblue;">
+                <a href="#POPSP" class="panel-title">
+                    Popular Science on Public Social Platform
+                    <span class="glyphicon glyphicon-chevron-up right"></span>
+                </a>
+            </div>
+            <!-- .panel-collapse和.collapse标明折叠元素 .in表示要显示出来 -->
+            <div id="collapseListGroup1" class="panel-collapse collapse in" role="tabpanel"
+                 aria-labelledby="collapseListGroupHeading1"  >
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="#Weibo">Weibo</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Wechat">WeChat Public Account </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Bilibili">BiliBili</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel panel-primary leftMenu" style="border:none;">
+                <div class="panel-heading" id="collapseListGroupHeading2" data-toggle="collapse"
+                     data-target="#collapseListGroup2" role="tab" style="background-color: white;color:lightskyblue;">
+                    <a href="#PLISB" class="panel-title">
+                        Public Lecture for iGEM and Synthetic Biology
+                        <span class="glyphicon glyphicon-chevron-down right"></span>
+                    </a>
+                </div>
+                <div id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel"
+                     aria-labelledby="collapseListGroupHeading2">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="">..</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="">..</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="">..</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div class="panel panel-primary leftMenu" style="border:none;">
+            <div class="panel-heading" id="collapseListGroupHeading3" data-toggle="collapse"
+                 data-target="#collapseListGroup3" role="tab" style="background-color: white;color:lightskyblue;">
+                <a href="#PSC" class="panel-title">
+                    Popular Science Comics
+                    <span class="glyphicon glyphicon-chevron-down right"></span>
+                </a>
+            </div>
+            <div id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel"
+                 aria-labelledby="collapseListGroupHeading3">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="#scroll">Scroll comic</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#Popular">Popular Science Comic Book</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="POPSP">
+        <div style="font-size:20px;font-weight: bold;">Popular Science on Public Social Platform</div>
+        <br>
+        <p style="font-size: 17px;">
+            &nbsp &nbsp To raise public awareness of nosocomial infection, engineered probiotic and synthetic biology as well,
+            we wrote popular science articles and
+            <a>comics</a>
+            and then released them on some of the most popular social media platforms with almost weekly updates.
+            The topics of our articles are as follows:</p>
+        <div style="font-size: 17px;">
+            <li style="list-style-type: disc">The Pathogenicity of Pseudomonas aeruginosa and its nosocomial Infection</li>
+            <li style="list-style-type: disc">Situation of pulmonary nosocomial infections in primary hospitals under the pressure of epidemic outbreak and existing countermeasures</li>
+            <li style="list-style-type: disc">Antibiotic misuse and drug resistance</li>
+            <li style="list-style-type: disc">The advantage of targeted quorum sensing</li>
+            <li style="list-style-type: disc">Cell-free Platform and Cell-free Synthetic Biology: The Recent "Renaissance"</li>
+            <li style="list-style-type: disc">Engineered probiotic</li>
+        </div>
+        <p style="font-size: 17px;">&nbsp&nbspIn addition, in order to meet the requirement of different user groups, the writing styles we applied to vary from platform to platform.</p>
+        <div id="Weibo">
+            <div style="font-size:20px;font-weight: bold;">Weibo</div>
+            <br>
+            <div style="font-size: 17px;">
+                &nbsp &nbspWeibo refers to a social media platform which allows users to update real-time information in the form of text, images, video and other multimedia. With nearly half a billion monthly active users, it’s extremely easy for Weibo to realize information sharing and instant messaging communication interaction. Via Weibo, we published a brief introduction of our project and relevant popular science articles and comics, with deep questions explored in simple terms,
+                each piece content-rich without being murky, which have got thousands of visits and readings.
+            </div>
+            <img src="img/p1.png" style="position: relative;margin-left: 200px;" width="500" height="500">
+            <img src="img/p2.png" style="position: relative;margin-left: 200px;" width="500" height="500">
+        </div>
+        <div id="Wechat">
+            <div style="font-size:20px;font-weight: bold;">WeChat Public Account</div>
+            <br>
+            <div style="font-size: 17px;">
+                &nbsp &nbspBased on Wechat, the public account allows comprehensive communication and interaction of articles, pictures, videos between account operators and its followers. Compared to Weibo, the intended audience are more specific. For instance as for our project, it’s merely other competitors of iGem and undergraduates who could get real-time update from our account, for which we wrote our articles in a more professional way.
+            </div>
+            <div style="font-size: 17px;">
+                &nbsp &nbspMeanwhile, in the interests of outreach expansion, we contacted some other public accounts of WHU students’ organizations to help promotion.
+            </div>
+        </div>
+        <div id="Bilibili">
+            <div style="font-size:20px;font-weight: bold;">BiliBili</div>
+            <br>
+            <div style="font-size: 17px;">
+                &nbsp &nbspBilibili is a highly concentrated cultural community and video platform for young Generations in China, which has built an ecosystem of continuous high-quality works among users, creators and contents. By the second quarter of 2020, the average monthly active users of Bilibili reached 172 million, while the monthly active users on mobile terminal reached 153 million, with users between 18 and 35 years old accounting for 78%.
+            </div>
+            <div style="font-size: 17px;">
+                &nbsp &nbspTherefore we published our popular science articles and comics mainly targeting younger generations, aiming to broaden horizon and raise their awareness of nosocomial infection, engineered probiotic and synthetic biology.
+            </div>
+        </div>
+    </div>
+
+    <div id="PLISB">
+    </div>
+
+    <div id="PSC">
+        <div id="scroll" style="font-size:20px;font-weight: bold;">Scroll comic</div>
+        <br>
+        <p style="font-size: 17px;">
+            &nbsp &nbsp According to the analysis of <a>questionnaires</a> we distributed to the public, we found it of vital significance to improve public cognitive level of nosocomial infection, engineered probiotic and synthetic biology as well. Under the new media pattern in the 21st century, communicating and popularizing science in the form of comics has become a popular and necessary method. Therefore we had a collaboration with an illustrator and artist, creating a short scroll
+            <a>comic</a>
+        <div id="example1" >
+
+        </div>
+            which made a brief and readily understandable introduction
+            of pathogenicity of Pseudomonas aeruginosa in pulmonary nosocomial infection and prophylactic measures.
+        <div id="Popular">
+            <div style="font-size:20px;font-weight: bold;">Popular Science Comic Book</div>
+            <br>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        var sd=1;
+        var bar=document.getElementById("bar");
+        window.onmousewheel= function (e) {
+            if (e.wheelDelta) {
+                if (e.wheelDelta > 0) { //当滑轮向上滚动时
+                    sd-=1;
+                    bar.style.width=sd+'%';
+                }
+                if (e.wheelDelta < 0) { //当滑轮向下滚动时
+                    sd+=1;
+                    bar.style.width=sd+'%';
+                }
+            }
+        }
+
+    </script>
+    <script src="js/pdfobject.js"></script>
+    <script>PDFObject.embed("hp.pdf", "#example1");</script>
+</body>
+</html>
